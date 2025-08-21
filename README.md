@@ -50,4 +50,7 @@ Then run the output in a shellcode emulator, for example:
 ```
 scdbg /f shellcode.txt /s -1
 ```
+## Disclaimer
+This tool is for malware analysis and education. Shellcode can be harmful. Run in a safe, isolated lab VM. Use only on files you own or have permission to analyze. Please be responsible.  
 
+(The author is not liable for damage or misuse)
