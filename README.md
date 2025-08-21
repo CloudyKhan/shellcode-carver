@@ -1,6 +1,6 @@
 # shellcode-carver
 
-Shellcode Carver is a portable Python tool that extracts and decodes shellcode from source files, scripts, and logs. Designed for fast malware analysis, it detects byte arrays and Base64 blobs across languages like C, C++, C#, PowerShell, and JavaScript. It works out of the box on REMnux, Linux, or Windows.
+Shellcode Carver is a portable Python tool that extracts and decodes shellcode from source files, scripts, and logs. It detects byte arrays and Base64 blobs across languages like C, C++, C#, PowerShell, and JavaScript. It works out of the box on REMnux, Linux, or Windows.
 
 I struggled to find a reliable shellcode carver, so I created one. This aims to speed up malware analysis by pulling out likely shellcode from messy or obfuscated files. It looks for byte arrays and Base64 blobs that malware commonly uses. The output is a deduplicated list of regions printed as lowercase hex. Use it directly or feed it into whatever tools you like.
 
